@@ -75,12 +75,29 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="stores\201\sales.json" />
+    <None Include="stores\201\salestotals.json" />
+    <None Include="stores\202\sales.json" />
+    <None Include="stores\202\salestotals.json" />
+    <None Include="stores\203\sales.json" />
+    <None Include="stores\203\salestotals.json" />
+    <None Include="stores\204\sales.json" />
+    <None Include="stores\204\salestotals.json" />
+    <None Include="stores\sales.json" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="bin\Debug\" />
     <Folder Include="Clases\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="stores\201\inventory.txt" />
+    <Content Include="stores\202\inventory.txt" />
+    <Content Include="stores\203\inventory.txt" />
+    <Content Include="stores\204\inventory.txt" />
+    <Content Include="stores\totals.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
